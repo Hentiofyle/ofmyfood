@@ -729,6 +729,7 @@ margin: 15px;
 font-family: 'roboto', sans-serif;
 font-weight: bold;
 display: flex;
+width:90%;
 justify-content: space-between;
 line-height: 1.8;
 animation: dish 3s;
@@ -845,7 +846,7 @@ animation: dish 3s;
 .btn{
 	padding: 15px;
 	color: white;
-	width: 30%;
+	width: 50%;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -870,8 +871,12 @@ animation: dish 3s;
 }
 
 .arrow{
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bold;
+	text-align:left;
+	justify-content:left;
+	align-item:left;
+	align-content:left;
 }
 
 a{
