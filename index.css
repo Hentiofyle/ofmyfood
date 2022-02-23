@@ -32,7 +32,7 @@ img.logo{
 
 section.hero{
 	margin: auto;
-	width: 100%;
+	width: 100vw;
 	
 }
 
@@ -62,7 +62,7 @@ div.introduction{
 	padding: 10px;
 }
 .introduction-body{
-	width: 80%;
+	width: 100vw;
 	margin-left: 50px;
 	padding-top: 10px;
 	padding-bottom: 50px;
@@ -107,7 +107,7 @@ div.introduction{
 	width: 87%;
 	margin: 0;
 	padding: 0;
-	margin-left: 10px;
+	margin-left: 0px;
 
 }
 
@@ -534,7 +534,6 @@ div.list-1 > div > i.fa{
 	  	font-size: 25px;
 	  }
       
-
     div.steps{
             max-width: 100vw;
             margin: 20px;
@@ -794,7 +793,7 @@ animation: dish 3s;
   span.price{
 	font-weight: bold;
 	padding: 0px;
-	font-size: 18px;
+	font-size: 16px;
 	position: relative;
 	top: 35px;
 	left: 5px;
@@ -846,7 +845,10 @@ animation: dish 3s;
 .btn{
 	padding: 15px;
 	color: white;
-	width: 230px;
+	width: 30%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 	border-radius: 30px;
 	border: .5px solid transparent;
 	background: linear-gradient(#ff79da, #9356dc);
@@ -854,7 +856,6 @@ animation: dish 3s;
 	margin-top: 30px;
 	margin-bottom: 50px;
 	box-shadow: 2px 2px 8px 0px  rgba(0,0,0,0.5);
-	margin-left: 80px;
 	cursor: pointer;
 	animation: dish 5s;
 }
@@ -871,9 +872,10 @@ animation: dish 3s;
 .arrow{
 	font-size: 40px;
 	font-weight: bold;
-	position: relative;
-	right: 70px;
-	bottom: 18px;
+}
+
+a{
+	width: 20%;
 }
 
 @media(min-width:768px) and (max-width: 1280px){
