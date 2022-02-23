@@ -38,7 +38,6 @@ Users should be able to:
 ### Screenshot of the menu  page in Mobiel first, Tablette View and Desktop view!
 
 ![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-gout-html-2022-02-23-15_22_04](https://user-images.githubusercontent.com/92610008/155338144-7257e9c1-dac9-4d10-ba14-21e498357f20.png)
-![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-gout-html-2022-02-23-15_22_32](https://user-images.githubusercontent.com/92610008/155338452-44fab915-6b69-41b9-abf1-035a8ef34b73.png)
 ![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-gout-html-2022-02-23-15_21_35](https://user-images.githubusercontent.com/92610008/155338318-0d99bc5d-addb-4a1f-b1ac-d1250c8c4592.png)
 ![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-gout-html-2022-02-23-15_21_52](https://user-images.githubusercontent.com/92610008/155338096-44fb463d-fb6a-4b5e-a8b8-ba79614a9681.png)
 
