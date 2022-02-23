@@ -30,16 +30,13 @@ Users should be able to:
 - add animation for page of the different menu
 
 ### Screenshot of the Home page in Mobiel first, Tablette View and Desktop view!
+![Capture d’écran (12)](https://user-images.githubusercontent.com/92610008/155342425-0d367ba9-4330-439f-a74c-dbced1b3d63f.png)
 
-![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-index-html-2022-02-23-11_21_37 (1)](https://user-images.githubusercontent.com/92610008/155339063-4079334e-e40c-482b-a1af-491a9ab130c6.png)
-![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-index-html-2022-02-22-10_09_49](https://user-images.githubusercontent.com/92610008/155337281-c94b312d-de25-4ddb-8916-a64fea4a2826.png)
-![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-index-html-2022-02-23-13_31_50](https://user-images.githubusercontent.com/92610008/155339102-0edfa313-a15c-4cca-80fe-2bf516e73aaa.png)
+
 
 ### Screenshot of the menu  page in Mobiel first, Tablette View and Desktop view!
 
-![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-gout-html-2022-02-23-15_22_04](https://user-images.githubusercontent.com/92610008/155338144-7257e9c1-dac9-4d10-ba14-21e498357f20.png)
-![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-gout-html-2022-02-23-15_21_35](https://user-images.githubusercontent.com/92610008/155338318-0d99bc5d-addb-4a1f-b1ac-d1250c8c4592.png)
-![screencapture-file-C-Users-monpc-OneDrive-Bureau-OMF-gout-html-2022-02-23-15_21_52](https://user-images.githubusercontent.com/92610008/155338096-44fb463d-fb6a-4b5e-a8b8-ba79614a9681.png)
+![Capture d’écran (13)](https://user-images.githubusercontent.com/92610008/155342445-9ec70f84-c084-4bcc-85dc-8e9d98c8da8c.png)
 
 
 
