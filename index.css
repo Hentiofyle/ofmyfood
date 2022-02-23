@@ -32,8 +32,7 @@ img.logo{
 
 section.hero{
 	margin: auto;
-	width:100vw;
-	
+	width: 100vw;
 	
 }
 
@@ -47,8 +46,7 @@ section.hero{
 	align-items: center;
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
-	box-shadow: 2px 2px 8px 0px  rgba(0,0,0,0.8);
-	
+	box-shadow: 2px 2px 8px 0px  rgba(0,0,0,0.8)
 }
 
 i.fa-location-dot{
@@ -64,8 +62,8 @@ div.introduction{
 	padding: 10px;
 }
 .introduction-body{
-	width: 80%;
-	margin-left: 10px;
+	width: 100vw;
+	margin-left: 50px;
 	padding-top: 10px;
 	padding-bottom: 50px;
 
@@ -273,7 +271,7 @@ a{
 	padding-right: 10px;
 	padding-left: 10px;
 	bottom: 180px;
-	left: 100px;
+	left: 300px;
 	font-weight: 500;
 	font-family: 'roboto', sans-serif;
 }
