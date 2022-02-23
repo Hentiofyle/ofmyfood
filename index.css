@@ -32,7 +32,8 @@ img.logo{
 
 section.hero{
 	margin: auto;
-	width: 100%;
+	width:100vw;
+	
 	
 }
 
@@ -47,7 +48,7 @@ section.hero{
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 	box-shadow: 2px 2px 8px 0px  rgba(0,0,0,0.8);
-	width:100%;
+	
 }
 
 i.fa-location-dot{
@@ -63,7 +64,7 @@ div.introduction{
 	padding: 10px;
 }
 .introduction-body{
-	width: 87%;
+	width: 100vw;
 	margin-left: 50px;
 	padding-top: 10px;
 	padding-bottom: 50px;
