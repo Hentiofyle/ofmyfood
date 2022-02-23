@@ -64,7 +64,7 @@ div.introduction{
 	width:100%;
 }
 .introduction-body{
-	width: 100%;
+	width: 87%;
 	margin-left: 50px;
 	padding-top: 10px;
 	padding-bottom: 50px;
@@ -273,7 +273,7 @@ a{
 	padding-right: 10px;
 	padding-left: 10px;
 	bottom: 180px;
-	left: 300px;
+	left: 100px;
 	font-weight: 500;
 	font-family: 'roboto', sans-serif;
 }
