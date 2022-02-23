@@ -61,11 +61,10 @@ div.introduction{
 	background-color: #F2F1F0;
 	text-align: center;
 	padding: 10px;
-	width:100%;
 }
 .introduction-body{
 	width: 87%;
-	margin-left: 10px;
+	margin-left: 50px;
 	padding-top: 10px;
 	padding-bottom: 50px;
 
