@@ -237,6 +237,7 @@ div.restaurant {
   margin: 20px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  position:relative;
 }
 
 .img {
@@ -287,15 +288,15 @@ a {
 }
 
 .new {
-  position: relative;
+  position: absolute;
   background-color: #99E2D0;
   color: green;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 10px;
   padding-left: 10px;
-  bottom: 180px;
-  left: 230px;
+  bottom: 80%;
+  left: 70%;
   font-weight: 500;
   font-family: 'roboto', sans-serif;
 }
@@ -654,6 +655,7 @@ div.restaurant {
   margin: 20px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  position:relative;
 }
 
 .img {
@@ -704,15 +706,15 @@ a {
 }
 
 .new {
-  position: relative;
+  position: absolute;
   background-color: #99E2D0;
   color: green;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 10px;
   padding-left: 10px;
-  bottom: 180px;
-  left: 300px;
+   bottom: 80%;
+  left: 70%;
   font-weight: 500;
   font-family: 'roboto', sans-serif;
 }
@@ -923,14 +925,15 @@ html {
   }
   div.restaurant {
     width: 40%;
+    position:relative;
   }
   .new {
-    position: relative;
+    position: absolute;
     background-color: #99E2D0;
     color: green;
     padding: 8px;
-    bottom: 180px;
-    left: 370px;
+     bottom: 80%;
+  left: 70%;
     font-weight: 500;
     font-family: 'roboto', sans-serif;
   }
@@ -1075,14 +1078,15 @@ html {
   }
   div.restaurant {
     width: 40%;
+    position:relative;
   }
   .new {
-    position: relative;
+    position: absolute;
     background-color: #99E2D0;
     color: green;
     padding: 8px;
-    bottom: 180px;
-    left: 500px;
+   bottom: 80%;
+  left: 70%;
     font-weight: 500;
     font-family: 'roboto', sans-serif;
   }
