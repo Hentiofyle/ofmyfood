@@ -18,7 +18,6 @@ This is a project for my degree in web development specialize in Frontend JavaSc
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -75,10 +74,10 @@ The email would contain the information about the customers and their choice, to
 
 ### Useful resources
 
-- [resource 1](https://openclassrooms.com/fr/courses/5919246-creez-des-animations-css-modernes/6340919-creez-des-animations-fluides-avec-la-propriete-css-transform) 
-- This helped me for having a better understanding of CSS animations. 
+- [(https://openclassrooms.com/fr/courses/5919246-creez-des-animations-css-modernes/6340919-creez-des-animations-fluides-avec-la-propriete-css-transform) ]
+This helped me for having a better understanding of CSS animations. 
 
-- [resource 2](https://www.youtube.com/watch?v=dSULWGtM1r4) - This is an amazing youtube tutorial which helped me using CSS Elipsis property. I'd recommend it to anyone still learning this concept.
+- [https://www.youtube.com/watch?v=dSULWGtM1r4] - This is an amazing youtube tutorial which helped me using CSS Elipsis property. I'd recommend it to anyone still learning this concept.
 
 
 
