@@ -237,7 +237,6 @@ div.restaurant {
   margin: 20px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
-  position:relative;
 }
 
 .img {
@@ -288,15 +287,15 @@ a {
 }
 
 .new {
-  position: absolute;
+  position: relative;
   background-color: #99E2D0;
   color: green;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 10px;
   padding-left: 10px;
-  bottom: 80%;
-  left: 70%;
+  bottom: 180px;
+  left: 230px;
   font-weight: 500;
   font-family: 'roboto', sans-serif;
 }
@@ -655,7 +654,7 @@ div.restaurant {
   margin: 20px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
-  position:relative;
+          position: relative;
 }
 
 .img {
@@ -673,6 +672,20 @@ a {
   padding: 0;
 }
 
+.new {
+  position: absolute;
+  background-color: #99E2D0;
+  color: green;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  bottom: 80%;
+  left: 70%;
+  font-weight: 500;
+  font-family: 'roboto', sans-serif;
+}
 .cards-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -680,6 +693,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+
 }
 
 .cards-body > p {
@@ -705,19 +719,7 @@ a {
   color: #9356dc;
 }
 
-.new {
-  position: absolute;
-  background-color: #99E2D0;
-  color: green;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 10px;
-  padding-left: 10px;
-   bottom: 80%;
-  left: 70%;
-  font-weight: 500;
-  font-family: 'roboto', sans-serif;
-}
+
 
 /*CARDS*/
 /*FOOTER*/
@@ -925,14 +927,14 @@ html {
   }
   div.restaurant {
     width: 40%;
-    position:relative;
+    position: relative;
   }
   .new {
     position: absolute;
     background-color: #99E2D0;
     color: green;
     padding: 8px;
-     bottom: 80%;
+ bottom: 80%;
   left: 70%;
     font-weight: 500;
     font-family: 'roboto', sans-serif;
@@ -1078,14 +1080,14 @@ html {
   }
   div.restaurant {
     width: 40%;
-    position:relative;
+    position: relative;
   }
   .new {
     position: absolute;
     background-color: #99E2D0;
     color: green;
     padding: 8px;
-   bottom: 80%;
+     bottom: 80%;
   left: 70%;
     font-weight: 500;
     font-family: 'roboto', sans-serif;
@@ -1166,13 +1168,16 @@ html {
    max-width: 400px;
 }
 
+header{
+  position: relative;
+}
 .arrow {
-  font-size: 40px;
+  position: absolute;
+   top: 10%;
+   right: .5%;
+  font-size: 50px;
   width: 30%;
   font-weight: bold;
-  position: relative;
-  right: 20px;
-  bottom: 18px;
 }
 
 .logo {
@@ -1244,6 +1249,8 @@ a{
 
 .dish-title {
   border: 1px solid transparent;
+  position: relative;
+  max-width: 350px;
   border-radius: 20px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
@@ -1437,13 +1444,16 @@ html {
   }
 }
 
+header{
+  position: relative;
+}
 .arrow {
-  font-size: 40px;
+  position: absolute;
+   top: 10%;
+   right: .5%;
+  font-size: 50px;
   width: 30%;
   font-weight: bold;
-  position: relative;
-  right: 20px;
-  bottom: 18px;
 }
 
 .logo {
@@ -1515,6 +1525,8 @@ a{
 .dish-title {
   border: 1px solid transparent;
   border-radius: 20px;
+  position: relative;
+  max-width: 450px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
   margin: 15px;
@@ -1577,7 +1589,7 @@ a{
   font-size: 30px;
   color: white;
   width: 0;
-  height: 95px;
+  height: 92px;
   padding-top: 30px;
   margin-left: 30px;
   border-radius: 0 1rem 1rem 0;
@@ -1698,25 +1710,16 @@ html {
 }
 
 
-  img.logo {
-    max-width: 20%;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
+header{
+  position: relative;
+}
 .arrow {
-  font-size: 40px;
+  position: absolute;
+   top: 10%;
+   left: .5%;
+  font-size: 50px;
   width: 30%;
   font-weight: bold;
-  position: relative;
-  right: 20px;
-  bottom: 18px;
 }
 
 .logo {
@@ -1749,7 +1752,7 @@ a{
 }
   p.entrées {
     width: 5%;
-    margin-left: 200px;
+    margin-left: 150px;
     font-size: 25px;
     margin-top: 30px;
   }
@@ -1760,27 +1763,30 @@ a{
     margin-right: 80px;
   }
   div.dish-title {
-    width: 50%;
-    margin-left: 300px;
+    max-width: 600px;
+    width: 60%;
+    margin-left: 150px;
+    position: relative;
   }
   p.plats {
     width: 5%;
-    margin-left: 200px;
+    margin-left: 150px;
     font-size: 25px;
   }
   p.desserts {
     width: 5%;
-    margin-left: 200px;
+    margin-left: 150px;
     font-size: 25px;
   }
   button.btn {
     margin-left: 500px;
   }
   .container {
-    left: 67%;
+    position: absolute;
+    left: 85%;
   }
   .container:hover {
-    left: 65%;
+    left: 84%;
   }
   span.price:hover .fas {
     -webkit-transition: 1s;
@@ -1801,14 +1807,32 @@ html {
   padding: 0;
    max-width: 2000px;
 }
-  img.logo {
-    max-width: 20%;
-    margin-left: -10px;
-  }
-  span.arrow {
-    font-size: 60px;
-    right: 500px;
-  }
+ 
+ header{
+  position: relative;
+}
+.arrow {
+  position: absolute;
+   top: 10%;
+   left: .5%;
+  font-size: 50px;
+  width: 30%;
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 40%;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  justify-content:center;
+  align-item:center;
+  align-content:center;
+}
+
+a{
+  width: 1%;
+}
   img.french-img {
     -o-object-fit: cover;
        object-fit: cover;
@@ -1838,8 +1862,10 @@ html {
     margin-right: 80px;
   }
   div.dish-title {
+    max-width: 600px;
     width: 50%;
     margin-left: 400px;
+    position: relative;
   }
   p.plats {
     width: 5%;
@@ -1870,10 +1896,12 @@ html {
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    left: 70%;
+    left: 85%;
   }
+
   .container:hover {
-    left: 69.5%;
+    left: 84%;
   }
+ 
 }
 /*# sourceMappingURL=main.css.map */
