@@ -79,8 +79,8 @@ div.introduction {
 }
 
 .introduction-body {
-  width: 80%;
-  margin-left: 20px;
+  width: 85%;
+  margin-left: 30px;
   padding-top: 10px;
   padding-bottom: 50px;
 }
@@ -1545,11 +1545,11 @@ a{
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  left: 80%;
+  left: 82%;
 }
 
 .container:hover {
-  left: 70%;
+  left: 77%;
 }
 
 .slide-button {
