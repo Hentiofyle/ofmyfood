@@ -351,6 +351,16 @@ div.list-1 > div > i.fa {
   margin-bottom: 10px;
 }
 
+.list-2 > p > a{
+  font-family: 'roboto', sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+
+
+}
+
 .list-1 {
   font-family: 'roboto', sans-serif;
   color: white;
@@ -860,7 +870,7 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100vw;
+    width: 80vw;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -874,13 +884,17 @@ html {
     margin: 20px;
   }
   .steps {
-    width: 40%;
+    width: 50%;
   }
   .steps > ul {
-    width: 80%;
+    width: 100%;
     margin-left: 50px;
     padding-top: 10px;
     padding-bottom: 50px;
+  }
+
+  li > p{
+    font-size: 15px;
   }
   .steps > h2 {
     text-align: center;
@@ -889,7 +903,7 @@ html {
     background-color: white;
   }
   .introduction-body {
-    width: 60%;
+    width: 80%;
     padding-bottom: 10px;
     background-color: white;
   }
@@ -1026,7 +1040,7 @@ html {
     width: 40%;
   }
   .steps > ul {
-    width: 80%;
+    width: 70%;
     margin-left: 50px;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -1141,9 +1155,9 @@ html {
   }
 }
  
-/*PAGE A LA FRANCAISE  : FRENCH MOBILE VIEW*/
+/*PAGE A LA FRANCAISE  : FRENCH MOBILE VIEW CPMPATIBLE IPHONE SE   */
 
-@keyframes dish {
+@keyframes dish { 
   from {
     opacity: 0;
     -webkit-transform: translateY(50px);
@@ -1174,8 +1188,8 @@ header{
 .arrow {
   position: absolute;
    top: 10%;
-   right: .5%;
-  font-size: 50px;
+   left: .5%;
+  font-size: 40px;
   width: 30%;
   font-weight: bold;
 }
@@ -1369,7 +1383,7 @@ div.btn-div{
   width: 100%;
 }
 
-.btn {
+.btn{
   padding: 15px;
   color: white;
   width: 50%;
@@ -1404,18 +1418,18 @@ div.btn-div{
 }
 
 
-@media (min-width: 400px) and (max-width: 768px){  
+@media (min-width: 400px) and (max-width: 768px){  /*Version grand telephone et ipad*/
 
   body {
   margin: 0;
   padding: 0;
-   max-width: 768px;
+   max-width: 800px;
 }
 
 html {
   margin: 0;
   padding: 0;
-   max-width: 768px;
+   max-width: 800px;
 }
 @keyframes load {
   from {
@@ -1450,8 +1464,8 @@ header{
 .arrow {
   position: absolute;
    top: 10%;
-   right: .5%;
-  font-size: 50px;
+   left: .5%;
+  font-size: 70px;
   width: 30%;
   font-weight: bold;
 }
@@ -1580,7 +1594,7 @@ a{
 }
 
 .slide-button:hover .fas {
-  width: 60px;
+  width: 55px;
   display: block;
 }
 
@@ -1589,7 +1603,7 @@ a{
   font-size: 30px;
   color: white;
   width: 0;
-  height: 92px;
+  height: 90px;
   padding-top: 30px;
   margin-left: 30px;
   border-radius: 0 1rem 1rem 0;
@@ -1684,13 +1698,7 @@ div.btn-div{
   bottom: 18px;
 }
 
-img.logo{
-  width: 70%;
-}
 
-a{
-  width: 1%;
-}
 
 }
 
@@ -1717,7 +1725,7 @@ header{
   position: absolute;
    top: 10%;
    left: .5%;
-  font-size: 50px;
+  font-size: 55px;
   width: 30%;
   font-weight: bold;
 }
@@ -1779,7 +1787,13 @@ a{
     font-size: 25px;
   }
   button.btn {
-    margin-left: 500px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 300px;
+    margin-left: 200px;
+
   }
   .container {
     position: absolute;
@@ -1887,9 +1901,14 @@ a{
   .dish-title > p:hover {
     overflow: visible;
   }
-  button.btn {
-    margin-left: 550px;
-    width: 25%;
+ button.btn {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 400px;
+    margin-left: 500px;
+
   }
   .container {
     display: -webkit-box;
@@ -1904,4 +1923,233 @@ a{
   }
  
 }
+
+
+/*CONTACT FORM*/
+
+#outside{
+  background-color:#f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.H1-contact{
+  font-size: 2em;
+  text-align: center;
+  text-transform:capitalize;
+   font-family: 'Shrikhand', sans-serif;
+}
+
+  
+
+form{
+
+/* Just to center the form on the page background-color:lightgoldenrodyellow ; */  
+
+  margin: auto;
+  width: 90%;
+ /* To set the limits of the form */
+ padding:  1em;
+ border: 1px solid #CCC;
+ border-radius: 1em;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  font-family: 'Roboto', sans-serif;
+}
+
+#survey-form {
+  background-color: white;
+}
+#description{
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+fieldset{
+  border: 1px solid #99E2D0;
+   font-family: 'Roboto', sans-serif;
+  margin: 10px;
+}
+
+legend{
+  font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+}
+
+#number{
+  width: 150px;
+   font-family: 'Roboto', sans-serif;
+}
+
+div + div{
+
+  margin-top: 1em;
+   font-family: 'Roboto', sans-serif;
+}
+
+/* input, textarea{
+  width: 200px;
+  border: 1px solid #999;
+}*/
+
+input:focus, textarea:focus {
+  border-color: #99E2D0;
+}
+
+
+textarea{ 
+vertical-align: top; 
+height: 5em;
+resize: vertical;
+ font-family: 'Roboto', sans-serif;
+}
+
+.button{
+  padding-left: 90px;
+}
+
+button{
+  margin: 0.5em;
+  font-size: 1em;
+  text-transform: capitalize;
+  background: linear-gradient(#ff79da, #9356dc);;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+   font-family: 'Roboto', sans-serif;
+
+}
+button:hover{
+  transform: scale(1.1);
+}
+
+
+.btn.1:hover{
+  box-shadow:inset 0 0 0 0 #f9e506 ;
+}
+
+#submitbutton {
+  display: flex; 
+  justify-content: center;
+}
+
+@media (min-width: 400px) and (max-width: 768px){
+  form{
+    width: 90%;
+  }
+
+  .H1-contact{
+  font-size: 2.5em;
+}
+}
+
+@media (min-width: 768px) and (max-width: 20000px){
+#outside{
+  
+  
+  background-color:#f2f2f2;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+.H1-contact{
+  font-size: 2.5em;
+  text-align: center;
+  text-transform:capitalize;
+   font-family: 'Shrikhand', sans-serif;
+}
+
+  #description{
+    font-family: 'Roboto', sans-serif;
+  }
+
+form{
+
+/* Just to center the form on the page background-color:lightgoldenrodyellow ; */  
+
+  margin: auto;
+  width: 70%;
+ /* To set the limits of the form */
+ padding:  1em;
+ border: 1px solid #CCC;
+ border-radius: 1em;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  font-family: 'Roboto', sans-serif;
+}
+
+#survey-form {
+  background-color: white;
+}
+
+fieldset{
+  border: 1px solid #99E2D0;
+  margin: 10px;
+   font-family: 'Roboto', sans-serif;
+}
+
+legend{
+  font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+}
+
+#number{
+  width: 150px;
+}
+
+div + div{
+
+  margin-top: 1em;
+}
+
+/* input, textarea{
+  width: 200px;
+  border: 1px solid #999;
+}*/
+
+input:focus, textarea:focus {
+  border-color: #99E2D0;}
+
+textarea{ 
+vertical-align: top; 
+height: 5em;
+resize: vertical;
+ font-family: 'Roboto', sans-serif;
+}
+
+.button{
+  padding-left: 90px;
+}
+
+button{
+  margin: 0.5em;
+  font-size: 1em;
+  text-transform: capitalize;
+  background: linear-gradient(#ff79da, #9356dc);;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+   font-family: 'Roboto', sans-serif;
+
+}
+button:hover{
+  transform: scale(1.1);
+}
+
+
+.btn.1:hover{
+  box-shadow:inset 0 0 0 0 #f9e506 ;
+}
+
+#submitbutton {
+  display: flex; 
+  justify-content: center;
+}
+}
+
+
 /*# sourceMappingURL=main.css.map */
