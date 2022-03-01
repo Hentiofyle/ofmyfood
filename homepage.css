@@ -176,19 +176,7 @@ i.fa-solid:hover {
 
 /*HERO*/
 /*CARDS*/
-i.fa-heart {
-  color: black;
-  font-size: 27px;
-  margin-top: 20px;
-}
 
-i.fa-heart:hover {
-  color: #9356dc;
-}
-
-i.fa-heart:focus {
-  color: #9356dc;
-}
 
 .cards {
   width: 100%;
