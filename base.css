@@ -226,7 +226,7 @@ max-width: 2000px;
 }
 .hearts__full {
   position: absolute;
-  font-size: 40px;
+  font-size: 35px;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -235,7 +235,7 @@ max-width: 2000px;
 }
 .hearts__empty {
   position: absolute;
-  font-size: 40px;
+  font-size: 35px;
   color: rgba(24, 23, 23, 0.678);
 }
 .hearts:hover .hearts__full {
