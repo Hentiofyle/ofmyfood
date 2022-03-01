@@ -344,8 +344,8 @@ section.hero {
     background-color: #99E2D0;
     color: green;
     padding: 8px;
- bottom: 80%;
-  left: 70%;
+right:5px;
+    top:10px;
     font-weight: 500;
     font-family: 'roboto', sans-serif;
   }
