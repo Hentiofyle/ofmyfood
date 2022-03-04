@@ -179,7 +179,7 @@ margin-left: 15px;
   border: 0px solid transparent;
   background: linear-gradient(#ff79da, #9356dc);
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 50px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
@@ -285,6 +285,7 @@ margin-left: 247px;
   .btn{
     width: 35%;
     margin-left: 488px;
+   
   }
 
 
