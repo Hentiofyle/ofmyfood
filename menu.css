@@ -10,8 +10,7 @@ header{
    width: 30px;
   font-size: 40px;
   font-weight: bold;
-  color:black;
-  
+  color: black;
 }
 
 a:active{
@@ -42,6 +41,8 @@ a:active{
  
 }
 
+
+
 .french-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,7 +52,7 @@ a:active{
           justify-content: space-between;
   font-family: 'Shrikhand', sans-serif;
   font-size: 20px;
-  margin-left: 15px;
+  margin-left: -9px;
   font-weight: 400;
   
 }
@@ -103,7 +104,7 @@ p.service{
 }
 
 div.menu-bloc{
-  animation: dish 3s;
+  /*animation: dish 3s;*/
   animation-delay: .1s;
 }
 
@@ -163,6 +164,10 @@ vertical-align: middle;
 width: 100%;
 margin-top: 30px;
 margin-left: 15px;
+   overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+
 }
 
 
@@ -171,7 +176,7 @@ margin-left: 15px;
   color: white;
   width: 50%;
   border-radius: 30px;
-  border: .5px solid transparent;
+  border: 0px solid transparent;
   background: linear-gradient(#ff79da, #9356dc);
   font-size: 16px;
   margin-top: 30px;
@@ -182,7 +187,7 @@ margin-left: 15px;
   align-items: center;
   align-content: center;
   text-align: center;
-  margin-left: 80px;
+  margin-left: 107px;
   cursor: pointer;
 }
 
@@ -198,13 +203,16 @@ margin-left: 15px;
 
 
 
-@media (min-width: 768px) and (max-width: 2000px){
+@media (min-width: 768px) and (max-width: 1200px){
 
 .french{
   border: none;
   border-radius: 0px;
   justify-content: center;
+  border-radius: none;
+  top: 254px;
 }
+
 .service{
   width: 5%;
 }
@@ -221,6 +229,7 @@ font-size: 25px;
   justify-content: center;
   align-items: center;
   align-content: center;
+  
 }
 
 .menu-bloc {
@@ -234,25 +243,36 @@ font-size: 25px;
 
 }
 
+a{width: 100%;}
+
 .btn{
-  width: 35%;
-  margin-left: 250px;
+  width: 50%;
+margin-left: 247px;
 }
 
 }
 
 @media (min-width: 1200px) and (max-width: 2000px){
 
-
+  .french{
+      border-radius: none;
+  top: 254px;
+  }   
+.menu-page-main{
+  display: flex;
+}
   
+.menu{
+  width: 33%;
+}
   .menu-bloc {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 85%;
     height: 85px;
     margin-bottom: 20px;
-    padding-left: 10px;
-    margin-left: 350px;
+    margin-right: 33px;
+    margin-left: 47px;
   
   }
   .french-title > h1{
@@ -263,8 +283,9 @@ font-size: 25px;
     margin-left: 50px;
     }
   .btn{
-    width: 25%;
-    margin-left: 450px;
+    width: 35%;
+    margin-left: 488px;
   }
+
 
 }
