@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Screenshot of the menu  page in Mobiel first, Tablette View and Desktop view!
 
+![Capture d’écran (18)](https://user-images.githubusercontent.com/92610008/156845614-2864717e-475a-4321-8ea2-58a5162c5530.png)
 
-![Capture d’écran (16)](https://user-images.githubusercontent.com/92610008/156844538-94b3b12e-d4e9-4583-ba0b-853aa87d098a.png)
 
 
 
