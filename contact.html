@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/762d54be4e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/base.css" rel="stylesheet" />
+    <title>OMF</title>
+  </head>
+
+  <body>
+    <div id="outside">
+      <header>
+        <a href="index.html"><span class="arrow">&#171;</span></a>
+        <img src="images/ohmyfood.png" alt="logo oh my food" class="logo" />
+      </header>
+      <div class="page">
+        <div class="img-contact">
+          <img src="images/enchantée.jpg" class="image" alt="picture of dish" />
+          <span class="logo-span">OhMyFood</span>
+        </div>
+
+        <form id="survey-form" action="index.html" method="post">
+          <h1 class="h1-contact">Reservation</h1>
+          <p id="description">
+            <b>Note :</b> Toute réservation faite moins de 12h en avance est
+            susebtible d'être refusée.
+          </p>
+
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <div>
+              <label id="Name-label" for="name">Nom</label>
+              <input
+                type="text"
+                placeholder="Your Name Here"
+                required
+                id="name"
+                name="Nom"
+              />
+            </div>
+
+            <div>
+              <label id="Email-label" for="Email">Email</label>
+              <input
+                type="Email"
+                placeholder="Your Email Here"
+                required
+                id="Email"
+                name="Email"
+              /><br />
+            </div>
+
+            <div>
+              <label id="number-label" for="Phone-number">Phone Number</label>
+              <input
+                type="Number"
+                placeholder="Your Phone Number Here"
+                required
+                id="Phone-number"
+                name="Phone-number"
+              />
+            </div>
+
+            <div>
+              <label id="person-label" for="Number">Nombre de personne</label>
+              <input
+                type="Number"
+                id="Number"
+                placeholder="Le nombre de personne "
+                name="Number"
+              />
+            </div>
+
+            <div>
+              <label id="date" for="dday"> Date de réservation</label>
+              <input type="date" id="dday" name="dday" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Information Complementaire</legend>
+
+            <label for="check">Check All That Apply</label>
+            <input id="check" />
+
+            <p>
+              <input type="checkbox" name="Tattoos" value="tattoos" /> Alergie
+              aux arachides<br />
+              <input type="checkbox" name="older" value="older" /> Alergie aux
+              noix<br />
+              <input type="checkbox" name="work" value="work" /> Option Vegan<br />
+              <input type="checkbox" name="Student" value="Student" />Option
+              Végétarien <br />
+              <input type="checkbox" name="yacht" value="yacht" /> Réservation
+              dans le cadre d'une occasion spéciale <br />
+              <input type="checkbox" name="Parent" value="Parent" /> Autres
+              alergies?<br />
+            </p>
+
+            <div>
+              <textarea
+                class="essay"
+                name="message"
+                rows="4"
+                cols="35"
+                placeholder="Dites nous en plus!"
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Choix du Menu</legend>
+            <div>
+              <label for="Menu">Menu </label>
+              <input id="Menu" />
+              <select id="dropdown">
+                <option value="goût">La palette du goût</option>
+                <option value="enchanté">La note enchantée</option>
+                <option value="french">A là française</option>
+                <option value="sens">Le délice des sens</option>
+              </select>
+            </div>
+            <div>
+              <!-- <label for="Plats">Choix du service </label> 
+<select id= « dropdown»>
+<option value= « service »>Entrée-Plat-Dessert</option>
+<option value= « dessert »>Plat-Dessert</option>
+<option value= « ? »>?</option>
+<option value= « ? »>?</option>
+</select> -->
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Remarque ou note spéciale</legend>
+
+            <label for="remarque"></label>
+            <input id="remarque" />
+            <p>Avez vous des informations supplémentaire à nous communiquer?</p>
+            <textarea
+              class="essay"
+              name="message"
+              rows="4"
+              cols="35"
+              placeholder="Write here"
+            ></textarea>
+          </fieldset>
+
+          <div class="submit">
+            <button type="submit" id="submit">Reserver</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
